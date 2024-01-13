@@ -6,9 +6,22 @@ header{
 .topo{
     display: flex;
     justify-content: space-between;
-    background-color: green;
 }
 
 img{
-    width: 30vh;
+    width: 20vh;
 }
+
+nav{
+    width: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+

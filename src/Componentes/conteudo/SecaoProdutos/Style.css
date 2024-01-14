@@ -58,8 +58,16 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: aqua;
 }
-    
+       
+ul{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li{
+    margin: 5px;
+}

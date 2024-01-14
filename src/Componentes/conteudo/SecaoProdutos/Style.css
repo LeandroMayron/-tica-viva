@@ -51,4 +51,15 @@
     padding: 30px;
     object-fit: contain;
 }
+
+.listaProdutos{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
     

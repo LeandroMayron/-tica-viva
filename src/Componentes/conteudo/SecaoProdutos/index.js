@@ -37,7 +37,7 @@ export default function SecaoProdutos() {
 
             </div>
 
-            <div>
+            <div className='listaProdutos'>
                 <p>Todos os nossos produtos incluem:</p>
                 <ul>
                     <li>Garantia de 1 ano</li>

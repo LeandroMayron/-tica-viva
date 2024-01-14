@@ -4,18 +4,35 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #f8f7ff;
 }
 
 .paragrafoQuemSomos{
     max-width: 1024px;
+    margin: 0 auto;
     text-align: center;
     line-height: 32px;
 }
 
 .cardQuemSomos{
-    width: 600px;
-    display: flex;
+    width: 1024px;
+    height: 600px;
+    margin: 0 auto;
     margin-top: 50px;
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.cardImg{
+    width: 50%;
+    background-color: red;
+}
+
+.cardImg img{
+    width: 100%;
     background-color: aqua;
+}
+
+.cardImg h3 p{
+    width: 100%;
 }

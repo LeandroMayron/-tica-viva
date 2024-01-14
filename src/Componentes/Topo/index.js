@@ -7,9 +7,9 @@ export default function Topo() {
             <div className='topo'>
                 <img src={Logo} alt="Logo" />
                 <nav>
-                    <a href="">PRODUTOS</a>
-                    <a href="">SOBRE</a>
-                    <a href="">CONTATO</a>
+                    <a href="#produtos">PRODUTOS</a>
+                    <a href="#sobre">SOBRE</a>
+                    <a href="#contato">CONTATO</a>
                 </nav>
             </div>
 

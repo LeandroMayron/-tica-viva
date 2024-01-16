@@ -12,11 +12,11 @@ export default function SecaoSobre() {
                     <div className='cardImg'>
                         <img src={Loja} alt="Imagem da Loja" />
                     </div>
-                    <div className='cardImg'>
+                    <div className='cardText'>
                         <h3>NOSSAS FILIAIS</h3>
                         <p>Hoje temos mais de 20 filiais pelo Brasil e na Ámerica</p>
                     </div>
-                    <div className='cardImg'>
+                    <div className='cardText'>
                         <h3>ATENDIMENTO FLEXÍVEL</h3>
                         <p>Nossa equipe possui e é treinada para te atender</p>
                     </div>

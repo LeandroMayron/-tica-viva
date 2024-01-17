@@ -1,0 +1,21 @@
+.secaoContato{
+    width: 100%;
+    color: #fff;
+    padding: 100px 20px;
+    background-color: #05031b;
+}
+
+.conteudoContato{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragrafo{
+    max-width: 1024px;
+    text-align: center;
+    line-height: 30px;
+}

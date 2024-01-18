@@ -32,7 +32,7 @@ export default function SecaoContato() {
                         </figure>
                     </div>
                     <div className='containerContato'>
-                        <h4>Nossa Rede</h4>
+                        <h4>Nossa Rede Sociais</h4>
                         <figure>
                             <img src={IconeFace} alt="icone facebook" />
                             <a href="">/OticaVida</a>

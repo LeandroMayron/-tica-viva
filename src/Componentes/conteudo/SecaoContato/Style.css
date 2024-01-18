@@ -19,3 +19,30 @@
     text-align: center;
     line-height: 30px;
 }
+
+.areaComunicacao{
+    width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containerContato{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+figure{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+figure img{
+    width: 30px;
+    height: 30px;
+}

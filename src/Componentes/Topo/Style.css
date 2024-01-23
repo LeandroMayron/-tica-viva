@@ -1,12 +1,13 @@
 header{
     margin: 10px 15px;
     width: 100%;
-    height: 3.5vw;
+    height: 50px;
     padding-top: 5px;
 }
 
 .topo{
     display: flex;
+    margin: 0 20px;
     justify-content: space-between;
 }
 
@@ -68,5 +69,25 @@ a{
         margin: 0 auto;
     }
     
+}
+
+@media only screen and (min-width: 551px) and (max-width: 768px) {
+    header{
+        width: 100%;
+        height: 60px;
+    
+    }
+
+    .topo{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav{
+        width: 250px;
+    }
 }
 

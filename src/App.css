@@ -14,7 +14,7 @@ body{
   margin: 0 auto;
 }
 
-.subTitulo{
+h2{
   text-transform: uppercase;
   margin: 0;
   font-size: 36px;

@@ -1,7 +1,7 @@
 header{
     margin: 10px 15px;
     width: 100%;
-    height: 50px;
+    height: 60px;
     padding-top: 5px;
 }
 
@@ -12,7 +12,7 @@ header{
 }
 
 img{
-    width: 20vh;
+    width: 10em;
     align-items: center;
 }
 
@@ -31,7 +31,7 @@ a{
     line-height: 5px;
 }
 
-@media only screen and (max-width:551px){   
+@media only screen and (max-width:550px){   
     header{ 
         width: 100%;
         height: 100px;
@@ -55,13 +55,6 @@ a{
         border-bottom: 1px solid gray;
     }
     
-    img{
-        width: 100px;
-        height: 40px;
-        padding-bottom: 10px;
-        align-items: center;
-    }
-
     nav{
         width: 40vh;
         height: 50px;
@@ -72,18 +65,17 @@ a{
 }
 
 @media only screen and (min-width: 551px) and (max-width: 768px) {
-    header{
-        width: 100%;
-        height: 50px;
-    }
 
     .topo{
         width: 90%;
         margin: 0 auto;
+        padding: 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+
+    
 
     nav{
         width: 250px;

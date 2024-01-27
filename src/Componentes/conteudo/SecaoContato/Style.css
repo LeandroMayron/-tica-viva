@@ -57,3 +57,48 @@ figure img{
 figure a{
     color: #fff;
 }
+
+@media only screen and (max-width: 550px) {
+    .secaoContato{
+        padding-top: 50px;
+    }
+    .paragrafo{
+        font-size: 14px;
+    }
+
+    .areaComunicacao{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .containerContato{
+        width: 270px;
+    }
+
+    .containerContato h4{
+        font-size: 18px;
+    }
+
+    figure{
+        width: 200px;
+        height: 22px;
+        margin: 0 auto;
+        justify-content: left;
+        align-items: center;
+    }
+
+    figure img{
+        width: 18px;
+        height: 25px;
+        margin-top: 9px;
+    }
+
+    figure p{
+        font-size: 14px;
+    }
+
+    figure a{
+        font-size: 14px;
+    }
+}

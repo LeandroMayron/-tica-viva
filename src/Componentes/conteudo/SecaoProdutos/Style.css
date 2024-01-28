@@ -26,8 +26,8 @@
 }
 
 .card{
-    width: 400px;
-    height: 300px;
+    width: 20em;
+    height: 17em;
     margin: 20px;
     padding: 20px 10px;
     display: flex;
@@ -106,7 +106,6 @@ li{
         width: 300px;
         height: 120px;
         padding: 0;
-        object-fit: contain;
     }
 
     .listaProdutos{
@@ -120,7 +119,7 @@ li{
     }
 }
 
-@media only screen and (min-width: 550px) and (max-width: 768px) {
+@media only screen and (min-width: 551px) and (max-width: 768px) {
     .secaoProdutos{
         padding: 50px 0 0 0;
     }
@@ -136,5 +135,5 @@ li{
         padding: 0 10px;
         text-align: center;
         line-height: 20px;
-    }
+    }  
 }
